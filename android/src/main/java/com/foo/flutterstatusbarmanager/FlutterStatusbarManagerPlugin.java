@@ -184,7 +184,7 @@ public class FlutterStatusbarManagerPlugin implements MethodCallHandler {
             result.success(true);
         } else {
             Log.e("FlutterStatusbarManager", "FlutterStatusbarManager: Can not change status bar style in pre M android versions.");
-            result.error("FlutterStatusbarManager", "FlutterStatusbarManager: Can not change status bar style in pre M android versions.", null);
+            result.success(true);
         }
     }
 
@@ -231,7 +231,7 @@ public class FlutterStatusbarManagerPlugin implements MethodCallHandler {
             }
         } else {
             Log.e("FlutterStatusbarManager", "FlutterStatusbarManager: Can not change status bar style in pre M android versions.");
-            result.error("FlutterStatusbarManager", "FlutterStatusbarManager: Can not change status bar style in pre M android versions.", null);
+            result.success(true);
         }
     }
 
@@ -257,7 +257,7 @@ public class FlutterStatusbarManagerPlugin implements MethodCallHandler {
             result.success(true);
         } else {
             Log.e("FlutterStatusbarManager", "FlutterStatusbarManager: Can not change status bar style in pre M android versions.");
-            result.error("FlutterStatusbarManager", "FlutterStatusbarManager: Can not change status bar style in pre M android versions.", null);
+            result.success(true);
         }
     }
 
